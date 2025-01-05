@@ -1,4 +1,5 @@
-Reto 1:
+# 1
+
 Crear un Programa que devuelva el acorde mayor de una nota Musical 
 Ejemplo:
 
