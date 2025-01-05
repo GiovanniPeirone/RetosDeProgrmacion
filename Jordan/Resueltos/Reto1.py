@@ -27,18 +27,22 @@
 notas = ["Do", "Do♯", "Re", "Re♯", "Mi", "Fa", "Fa♯", "Sol", "Sol♯", "La", "La♯", "Si", "Do", "Do♯", "Re", "Re♯", "Mi", "Fa", "Fa♯"]
 for i in range(len(notas)):
             print(i, notas[i])
-            
-            
+
+
+
 #   Para copiar el simbolo de sostenido ->      ♯
+def AcordeMayor(nota):
+    posicion = notas.index(nota)
+            
+    nota2 = posicion + 4 
+    nota3 = posicion + 7
+            
+    print(nota, notas[nota2], notas[nota3])
+    print()
+    
 while True:
     try:
         nota = input("Ingrese la nota: ")
-        posicion = notas.index(nota)
-        
-        nota2 = posicion + 4 
-        nota3 = posicion + 7
-        
-        print(nota, notas[nota2], notas[nota3])
-        print()
+        AcordeMayor(nota)
     except ValueError():
         continue
