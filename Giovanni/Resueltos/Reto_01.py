@@ -1,27 +1,34 @@
-
 def entero_a_romano(numero):
-    # Lista de símbolos romanos y sus valores correspondientes
     simbolos = [
         ["M", 1000],
+        ["CM", 900],
         ["D", 500],
+        ["CD", 400],
         ["C", 100],
+        ["XC", 90],
         ["L", 50],
+        ["XL", 40],
         ["X", 10],
+        ["IX", 9],
         ["V", 5],
+        ["IV", 4],
         ["I", 1]
     ]
 
-    numero_romano = ""  # Cadena para construir el número romano
+    numero_romano = ""
 
-    # Mientras el número a convertir sea mayor que 0
     for simbolo, valor in simbolos:
         while numero >= valor:
-            numero_romano += simbolo
-            numero -= valor
+            
+
+            numero_romano += simbolo  # Agrega el símbolo correspondiente
+            numero -= valor  # Resta el valor correspondiente del número
+
+
 
     return numero_romano
 
 # Ejemplo de uso
-numero_a_convertir = 679
-resultado = entero_a_romano(numero_a_convertir)
-print(f"El número {numero_a_convertir} en romano es: {resultado}")
+numero = 679
+resultado = entero_a_romano(numero)
+print(f"El número {numero} en romano es: {resultado}")
