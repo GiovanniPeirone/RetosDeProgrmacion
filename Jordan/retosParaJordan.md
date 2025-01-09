@@ -35,3 +35,16 @@ La
 La♯
 
 Si 
+
+
+# 2
+
+Crear un progrma que devulva el codigo ASCI de un texto ejemplo:
+
+Entrada:
+
+Hola 
+
+Salida:
+
+7211110897
