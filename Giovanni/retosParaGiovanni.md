@@ -13,3 +13,22 @@ Simbolo 	Valor
     D	        500
     M	        1000
 Con el cual si yo ingreso el valor 679 = DCLXXIX
+
+
+# 2
+
+El segundo desafio es hacer un programa para ordenar los valores de dos listas ordenadas, podes optar por usar listas enlazadas.
+
+## Test1
+    lista1 = [1,2,4]
+    lista2 = [1,3,4]
+
+    Salida Esperada: [1,1,2,3,4,4]
+
+## Test2
+    list1 = []
+    list2 = [0]
+    Salida Esperada: [0]
+
+Restricciones: 
+    - Ambas listas deben estar en orden no decreciente
