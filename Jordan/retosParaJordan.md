@@ -1,5 +1,4 @@
 # 1
-
 Crear un Programa que devuelva el acorde mayor de una nota Musical 
 Ejemplo:
 
@@ -13,32 +12,19 @@ Los Acordes Mayores se forman de una nota base Eje Re luego 4 semitonos hacia ar
 Notas de una octava:
 
 Do 
-
 Do♯ 
-
 Re
-
 Re♯
-
 Mi
-
 Fa
-
 Fa♯
-
 Sol
-
 Sol♯
-
 La
-
 La♯
-
 Si 
 
-
 # 2
-
 Crear un progrma que devulva el codigo ASCI de un texto ejemplo:
 
 Entrada:
@@ -47,4 +33,4 @@ Hola
 
 Salida:
 
-7211110897
+72 111 108 97
