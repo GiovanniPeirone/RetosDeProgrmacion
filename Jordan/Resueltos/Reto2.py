@@ -20,5 +20,13 @@ texto = []
 for i in text:
     print(ord(i))
 
+
+AsciiDict = {
+    "A" : 66,
+    "Z" : 96
+    "a" : 97,
+    "z" : 122
+}
+
 #https://codescracker.com/python/program/python-program-print-ascii-values.htm
 #Ese chabon es un genio 

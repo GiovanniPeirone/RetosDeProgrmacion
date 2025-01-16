@@ -8,8 +8,8 @@ def ordenador(lista1, lista2):
     
 
 
-lista1 = [1,3,5]
+lista1 = [1,2,4]
 
-lista2 = [1,2,4]
+lista2 = [1,3,4]
 
 print(ordenador(lista1,lista2))
