@@ -13,6 +13,7 @@
 '''
 import string
 
+# SOLUCION 1
 
 #text = "Hola" #Esto se puede cambiar
 #texto = []
@@ -22,6 +23,7 @@ import string
 #https://codescracker.com/python/program/python-program-print-ascii-values.htm
 #Ese chabon es un genio 
 
+# SOLUCION 2
 AsciiDict = {
     "A" : 65,
     "B" : 66,
@@ -77,9 +79,7 @@ AsciiDict = {
     "z" : 122
 }
 
-text = "Hola" #Esto se puede cambiar
+text = "Pepe" #Esto se puede cambiar
 
-text.count()
-
-
-print(text)
+for i in text:
+    print(i, AsciiDict[i])
