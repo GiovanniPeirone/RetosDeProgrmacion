@@ -42,8 +42,9 @@ Pepito quiere una maquina que sume y reste numeros de la sigiente manera
 Pepito tiene 3 listas. cada lista tiene 2 valores el primero es el numero a calcular y el segundo es el orden en el que se va a calcular Ejemplo:
 
 l1 = [10, 3]
+
 l2 = [5, 1]
-l2 = [15, 2]
+l3 = [15, 2]
 
 el calculo deveria ser: 5 + 15 - 10 
 
