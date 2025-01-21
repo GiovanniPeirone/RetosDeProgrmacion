@@ -77,3 +77,43 @@ Esto por que salteamos los numeros decimales, siendo que los pasos:
     Salida Esperada = 5
 
 TODOS LOS numero SE DEBEN DIVIDIR POR 2
+
+## Problema 5: Suma de Subconjuntos
+
+Dado un conjunto de números enteros, encuentra todos los subconjuntos posibles cuya suma sea igual a un número objetivo dado.
+
+    Ejemplo:
+        Conjunto = [2, 4, 6, 10]
+        Objetivo = 16
+        Salida Esperada = [[6, 10], [2, 4, 10]]
+
+    Restricciones:
+        1. El conjunto no contiene números repetidos.
+        2. Todos los números en el conjunto son positivos.
+        3. El conjunto puede estar vacío, en cuyo caso la salida debe ser una lista vacía.
+        4. La solución no debe contener subconjuntos duplicados.
+
+    Función Esperada
+        La función debe ser llamada `encontrarSubconjuntos(conjunto, objetivo)` y debe devolver una lista de listas con los subconjuntos que suman el objetivo.
+
+### Tests
+
+    Test1
+    conjunto = [2, 4, 6, 10]
+    objetivo = 16
+    Salida Esperada = [[6, 10], [2, 4, 10]]
+
+    Test2
+    conjunto = [1, 2, 3, 4, 5]
+    objetivo = 10
+    Salida Esperada = [[1, 2, 3, 4], [2, 3, 5], [1, 4, 5]]
+
+    Test3
+    conjunto = []
+    objetivo = 5
+    Salida Esperada = []
+
+    Test4
+    conjunto = [1, 2, 3]
+    objetivo = 6
+    Salida Esperada = [[1, 2, 3]]
