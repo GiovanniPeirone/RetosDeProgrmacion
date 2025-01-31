@@ -52,3 +52,9 @@ el return debe ser: 10
                           
             
 los signos de calculo deven ir en ese orden primero + segundo -
+
+# 4
+
+Crear un programa que pueda recibir un string de calculos ejemplos "2*2-1"
+la funcion deve ser capas de agarrar el calculo y devolver el resultado
+
