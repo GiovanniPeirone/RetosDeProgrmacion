@@ -58,3 +58,8 @@ los signos de calculo deven ir en ese orden primero + segundo -
 Crear un programa que pueda recibir un string de calculos ejemplos "2*2-1"
 la funcion deve ser capas de agarrar el calculo y devolver el resultado
 
+# 5 
+
+Crear un programa que intercambie el valor de dos variables  ejemplo x = 1, y = 2 el resutado deveria ser x = 2, y = 1
+
+
