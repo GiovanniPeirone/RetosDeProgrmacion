@@ -1,0 +1,60 @@
+# Carpetas de compilación
+/target/
+/debug/
+/release/
+
+# Archivos de dependencias
+Cargo.lock
+
+# Archivos de configuración de Rust
+/.rustup/
+/.cargo/
+
+# Archivos temporales y de caché
+*.rs.bk
+*.swp
+*.swo
+*.tmp
+
+# Archivos generados por Rust Analyzer y otros editores
+/.idea/
+/.vscode/
+/*.iml
+
+# Archivos de depuración
+*.log
+*.out
+*.dSYM/
+/*.profdata
+
+# Archivos de compilación de Windows
+*.pdb
+*.exe
+*.dll
+*.lib
+*.obj
+
+# Archivos de compilación de macOS/Linux
+*.dylib
+*.so
+*.o
+
+# Archivos generados por pruebas y benchmarking
+/tests/target/
+benches/target/
+examples/target/
+
+# Ignorar archivos binarios generados
+*.bin
+*.dat
+*.db
+
+# Ignorar archivos de herramientas de Rust
+/target/criterion/ # Benchmarking con Criterion
+/target/doc/       # Documentación generada por cargo doc
+
+# Archivos de salida de compilación incremental
+/target/.rustc_info.json
+
+# Si usas workspaces y crates internos
+**/target/
